@@ -1,0 +1,11 @@
+name: sample-data-dev
+display_name: napari sample data dev
+contributions:
+  commands:
+    - id: sample-data-dev.make_sample_data
+      python_name: sample_data_dev._sample_data:make_sample_data
+      title: Load sample data from napari sample data dev
+  sample_data:
+    - command: sample-data-dev.make_sample_data
+      display_name: napari sample data dev
+      key: unique_id.1
